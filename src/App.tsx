@@ -275,7 +275,7 @@ const App: React.FC = () => {
           placeholder="Enter Playlist URL or ID"
           value={input}
           onChange={(e) => setInput(e.target.value)}
-          className="mb-4 w-full max-w-md rounded border p-2"
+          className={`mb-4 w-full max-w-md rounded border p-2 ${darkMode ? "placeholder-gray-500" : "placeholder-gray-900"}`}
         />
         <div className="flex gap-4">
           <button
@@ -293,7 +293,7 @@ const App: React.FC = () => {
           </button>
           <button
             onClick={() => setDarkMode((prev) => !prev)}
-            className={`absolute top-4 right-4 rounded px-2 py-1 dark:bg-gray-700 ${
+            className={`absolute top-4 right-4 rounded px-2 py-1 ${
               darkMode ? "bg-bray-700" : "bg-gray-300"
             }`}
           >
