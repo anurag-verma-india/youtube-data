@@ -1,0 +1,9 @@
+module.exports = {
+    future: {
+        useLegacyColorPalette: true,
+    },
+    darkMode: "class",
+    content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+    theme: { extend: {} },
+    plugins: [],
+};
