@@ -1,0 +1,25 @@
+{
+  "short_name": "YT Duration",
+  "name": "YouTube Playlist Duration Calculator",
+  "description": "Calculate the total watch time of any YouTube playlist and get playback durations at 1x, 1.5x, and 2x speed.",
+  "orientation": "portrait",
+  "start_url": ".",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#2563eb",
+  "icons": [
+    {
+      "src": "/web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
