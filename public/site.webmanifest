@@ -1,5 +1,5 @@
 {
-  "short_name": "YT Duration",
+  "short_name": "YT Time",
   "name": "YouTube Playlist Duration Calculator",
   "description": "Calculate the total watch time of any YouTube playlist and get playback durations at 1x, 1.5x, and 2x speed.",
   "orientation": "portrait",
