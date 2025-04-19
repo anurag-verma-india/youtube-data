@@ -6,6 +6,7 @@ import React, { useEffect, useRef, useState } from "react";
 import axios from "axios";
 // import html2canvas from "html2canvas";
 import html2canvas from "html2canvas-pro";
+import { Analytics } from "@vercel/analytics/react";
 
 const YOUTUBE_API_KEY = import.meta.env.VITE_YOUTUBE_API_KEY;
 
@@ -260,6 +261,7 @@ const App: React.FC = () => {
 
   return (
     <>
+      <Analytics />
       <div
         className={`flex min-h-screen flex-col items-center justify-center px-6 py-10 ${
           darkMode ? "bg-gray-900 text-gray-100" : "bg-gray-100 text-gray-800"
